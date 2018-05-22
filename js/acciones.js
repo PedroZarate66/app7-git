@@ -2,8 +2,8 @@
 
 $(document).ready(function(e) {
     document.addEventListener("diviceready",function(){
-		$('#izquierda').on("swipeleft", function(){
-			navigator.notification.alert("deslizó hacia la izquierda",function(){"aplicación siete","OK"});
+		$('#izquierda').on("swipeleft",function(){
+			navigator.notification.alert("deslizó hacia la izquierda",function(){"aplicación 7","OK"});
 		});//cerrar deslizar izquierda
 		$('#derecha').on("swiperight",function(){
 			navigator.notification.confirm("¿Qué quiere hacer?",function(op){
