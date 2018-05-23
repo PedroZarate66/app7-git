@@ -1,9 +1,6 @@
 // JavaScript Document
 
 $(document).ready(function(e) {
-    document.addEventListener("diviceready",function(){
-		$('#izquierda').on("swipeleft",function(){
-			navigator.notification.alert("deslizó hacia la izquierda",function(){"aplicación 7","OK"});
     document.addEventListener("deviceready",function(){
 		$('#izquierda').on("swipeleft", function(){
 			navigator.notification.alert("deslizó hacia la izquierda", function(){"aplicacion 7","Ok"});
